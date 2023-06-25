@@ -1,0 +1,47 @@
+@font-face {
+    font-family: font;
+    src: url(./Raleway-MediumItalic.ttf);
+}
+
+* {
+    margin: 1px 4px 4px 4px;
+}
+
+header{
+    display: flex;
+    margin: 5px 5px 10px 150px;
+    padding: 5px 5px 10px 22px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 5px 10px -350px;
+}
+
+nav li{
+    padding: 0px 15px;
+    list-style-type: none;
+}
+
+header img{
+    margin: 5px 50px 10px 100px;
+    padding: 5px 5px 10px 22px;
+}
+
+main{
+    margin: 0 14px;
+}
+
+p{
+    font-family: font;
+    font-size: 15px;
+}
+
+body,html{
+    overflow-x: hidden;
+}
+
+h1{
+    margin: 100px 5px 10px 15px;
+}
